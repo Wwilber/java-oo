@@ -12,7 +12,9 @@ public class Principal {
         meuCarro.cor = "Vermelho";
         meuCarro.fabricante = "Honda";
 
-//        meuCarro.proprietario = new Pessoa();
+        meuCarro.calcularValorRevenda();
+
+        //meuCarro.proprietario = new Pessoa();
 //        meuCarro.proprietario.nome = "Wilber Ribeiro";
 //        meuCarro.proprietario.cpf = "371.778.693-87";
 //        meuCarro.proprietario.anoNascimento = 1972;
@@ -20,12 +22,14 @@ public class Principal {
         meuCarro.proprietario=eu;
 
 
-//        Carro seuCarro = new Carro();
-//
-//        seuCarro.modelo = "Golf";
-//        seuCarro.anoFabricacao = 2011;
-//        seuCarro.cor = "Branco";
-//        seuCarro.fabricante = "volks";
+        Carro seuCarro = new Carro();
+
+        seuCarro.modelo = "Golf";
+        seuCarro.anoFabricacao = 2011;
+        seuCarro.cor = "Branco";
+        seuCarro.fabricante = "volks";
+
+        seuCarro.calcularValorRevenda();
 
         System.out.printf("Modelo: %s%n", meuCarro.modelo);
         System.out.printf("Ano: %d%n", meuCarro.anoFabricacao);

@@ -9,4 +9,12 @@ public class Carro {
 
 // INSTANCIAÇÃO DO OBJETO PESSOA AO PROPRIETARIO:
 //    Pessoa proprietario = new Pessoa();
+
+    void calcularValorRevenda(){
+        System.out.printf("Calcular valor de revenda de: %s %d%n ",
+                modelo, anoFabricacao);
+    }
+
+
+
 }
