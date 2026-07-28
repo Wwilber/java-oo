@@ -6,4 +6,7 @@ public class Carro {
     int anoFabricacao;
 
     Pessoa proprietario;
+
+// INSTANCIAÇÃO DO OBJETO PESSOA AO PROPRIETARIO:
+//    Pessoa proprietario = new Pessoa();
 }
