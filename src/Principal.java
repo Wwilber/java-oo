@@ -15,10 +15,10 @@ public class Principal {
 
         meuCarro.calcularValorRevenda();
 
-        //meuCarro.proprietario = new Pessoa();
-//        meuCarro.proprietario.nome = "Wilber Ribeiro";
-//        meuCarro.proprietario.cpf = "371.778.693-87";
-//        meuCarro.proprietario.anoNascimento = 1972;
+        // meuCarro.proprietario = new Pessoa();
+        //        meuCarro.proprietario.nome = "Wilber Ribeiro";
+        //        meuCarro.proprietario.cpf = "371.778.693-87";
+        //        meuCarro.proprietario.anoNascimento = 1972;
 
         meuCarro.proprietario = eu;
 
