@@ -4,14 +4,14 @@ public class Principal {
         Pessoa eu = new Pessoa();
         eu.nome = "wilber Ribeiro";
         eu.cpf = "371.778.693-87";
-        eu.anoNascimento= 1972;
+        eu.anoNascimento = 1972;
 
 
         meuCarro.modelo = "HR-V";
         meuCarro.anoFabricacao = 2021;
         meuCarro.cor = "Vermelho";
         meuCarro.fabricante = "Honda";
-        meuCarro.precoCompra=120000;
+        meuCarro.precoCompra = 120000;
 
         meuCarro.calcularValorRevenda();
 
@@ -20,7 +20,7 @@ public class Principal {
 //        meuCarro.proprietario.cpf = "371.778.693-87";
 //        meuCarro.proprietario.anoNascimento = 1972;
 
-        meuCarro.proprietario=eu;
+        meuCarro.proprietario = eu;
 
 
         Carro seuCarro = new Carro();
