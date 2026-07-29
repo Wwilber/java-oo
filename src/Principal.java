@@ -11,6 +11,7 @@ public class Principal {
         meuCarro.anoFabricacao = 2021;
         meuCarro.cor = "Vermelho";
         meuCarro.fabricante = "Honda";
+        meuCarro.precoCompra=120000;
 
         meuCarro.calcularValorRevenda();
 
