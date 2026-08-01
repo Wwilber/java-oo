@@ -30,6 +30,7 @@ public class Principal {
         seuCarro.cor = "Branco";
         seuCarro.fabricante = "volks";
 
+        meuCarro.calcularValorRevenda();
         seuCarro.calcularValorRevenda();
 
         System.out.printf("Modelo: %s%n", meuCarro.modelo);
