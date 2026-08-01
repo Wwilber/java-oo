@@ -6,9 +6,8 @@ public class Principal {
         eu.cpf = "371.778.693-87";
         eu.anoNascimento = 1972;
 
-
         meuCarro.modelo = "HR-V";
-        meuCarro.anoFabricacao = 2021;
+        meuCarro.anoFabricacao = 2024;
         meuCarro.cor = "Vermelho";
         meuCarro.fabricante = "Honda";
         meuCarro.precoCompra = 120000;
@@ -26,12 +25,18 @@ public class Principal {
         Carro seuCarro = new Carro();
 
         seuCarro.modelo = "Golf";
-        seuCarro.anoFabricacao = 2011;
+        seuCarro.anoFabricacao = 2022;
         seuCarro.cor = "Branco";
         seuCarro.fabricante = "volks";
+        seuCarro.precoCompra = 200000;
 
-        meuCarro.calcularValorRevenda();
-        seuCarro.calcularValorRevenda();
+        double valorRevendaMeuCarro = meuCarro.calcularValorRevenda();
+        double valorRevendaSeuCarro = seuCarro.calcularValorRevenda();
+
+
+        System.out.printf("Valor para Revenda do Meu Carro = %6.2f%n", valorRevendaMeuCarro);
+        System.out.printf("Valor para Revenda do Seu Carro = %6.2f%n", valorRevendaSeuCarro);
+
 
         System.out.printf("Modelo: %s%n", meuCarro.modelo);
         System.out.printf("Ano: %d%n", meuCarro.anoFabricacao);

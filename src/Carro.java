@@ -10,7 +10,7 @@ public class Carro {
 // INSTANCIAÇÃO DO OBJETO PESSOA AO PROPRIETARIO:
 //    Pessoa proprietario = new Pessoa();
 
-    void calcularValorRevenda() {
+    double calcularValorRevenda() {
         int tempoDeUsoEmAnos = 2022 - anoFabricacao;
         int vidaUtilEmAnos = 20;
 
@@ -21,8 +21,11 @@ public class Carro {
             valorRevenda = 0;
         }
 
-                System.out.printf("Tempo de uso (anos): %d%n", tempoDeUsoEmAnos);
-        System.out.printf("Valor de revenda: %6.2f%n", valorRevenda);
+        // System.out.printf("-- Tempo de uso (anos): %d%n", tempoDeUsoEmAnos);
+        //  System.out.printf("-- Valor de revenda: %6.2f%n", valorRevenda);
+
+        return valorRevenda;
+
     }
 
 
